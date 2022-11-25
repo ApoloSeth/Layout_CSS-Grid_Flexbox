@@ -3,3 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    height: 100vh;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+.wrapper .header {
+    background: #aae3e7;
+    padding: 5px;
+}
+
+.wrapper .main {
+    background: #eebda4;
+    padding: 5px;
+}
+
+.wrapper .footer {
+    background: #dacbe1;
+    padding: 5px;
+}
