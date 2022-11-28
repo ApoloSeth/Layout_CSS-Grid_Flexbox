@@ -3,3 +3,38 @@
     margin: 0;
     padding: 0;
 }
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    height: 100vh;
+}
+
+.item1 {
+    background: #f1d9e7;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
+.item2 {
+    background: #dacbe1;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
+.item3 {
+    background: #aae3e7;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
+.item4 {
+    background: #d3f5c0;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
