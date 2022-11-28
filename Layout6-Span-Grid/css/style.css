@@ -1,5 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(12, 1fr);
+    height: 100vh;
+    background: whitesmoke;
+    font-family: 'Rubik Microbe', cursive;
+    font-weight: 500;
+}
+
+.span12 {
+    grid-column: 1 / 13;
+    background: #d3f5c0;
+}
+
+.span6 {
+    grid-column: 2 / 8;
+    background: #eebda4;
+}
+
+.span4 {
+    grid-column: 4 / 9;
+    background: #aae3e7;
+}
+
+.span2 {
+    grid-column: 3 / 5;
+    background: #fae6af;
 }
