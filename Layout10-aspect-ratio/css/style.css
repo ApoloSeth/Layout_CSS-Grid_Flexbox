@@ -7,3 +7,26 @@
 html{
     font-size: 62.5%;
 }
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    width: clamp(15rem, 50%, 40rem);
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.card .video {
+    background-color:darkkhaki;
+    aspect-ratio: 1 / 1;
+    margin: 2rem 0;
+}
+
