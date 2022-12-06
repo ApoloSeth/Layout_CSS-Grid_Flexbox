@@ -7,3 +7,23 @@
 html {
     font-size: 62.5%;
 }
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container .card {
+    width: clamp(20rem, 50%, 35rem);
+    background: #dacbe1;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.container img {
+    width: 100%;
+    height: 15rem;
+    background: #dda25e;
+    margin: 1rem 0;
+}
